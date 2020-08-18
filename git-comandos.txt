@@ -1,0 +1,76 @@
+mkdir 'pasta'
+	criar nova pasta
+
+cd 'pasta'
+	entra em pasta
+
+cd ..
+	voltar à pasta anterior
+
+git init
+	inicializar o git na pasta atual
+
+ls
+	listar os arquivos do diretório
+
+
+
+
+
+git status 
+	status dos arquivos
+
+vim Readme.md
+	editar ou criar um arquivo .md
+
+git add arquivo.arc
+	trackear a última modificação do arquivo
+
+git commit -m "Comentário sobre a modificação"
+	enviar a modificação trackeada no master
+	a modificação precisa ser adicionada antes de ser comitada
+
+
+
+
+git log
+	histórico de commits do arquivo
+
+git log --decorate
+	Log mais detalhado
+
+git log --author="nome"
+	log específico de um usuário que contenha a string "nome"
+
+git shortlog
+	resumo da quantidade e comentários dos commits de cada pessoa no projeto
+
+git shortlog -sn
+	mostrar só a quantidade de commits por pessoa
+
+git log --graph
+	mostrar os commit de maneira gráfica
+
+git show exemplo
+	botar a hash de um commit no lugar de exemplo para ver mais detalhadamente
+	o que foi feito no commit específico.
+
+	
+git diff
+	mostrar todas as mudanças feitas no diretorio antes do commit
+	USE ANTES DE FAZER UM COMMIT!
+	Mesma coisa de um git show, mas antes do commitgit
+
+git diff --name-only
+	mostra só o nome dos arquivos modificados
+
+git commit -am "Comentário"
+	adciona e commit no mesmo comando
+
+
+
+
+
+ctrl+insert
+	colar o texto selecionado
+
