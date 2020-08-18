@@ -91,6 +91,27 @@ git reset --hard exemplo
 
 
 
+git remote add origin git@github.com:username/nomedapasta
+	adiciona um repositório remoto do github no repositório local
+	nome: origin - pode mudar pra qualquer outra coisa
+
+git remote
+	mostra o repositório remoto
+
+git remote -v
+	mostra o endereço do diretório remoto ligado ao local
+
+git push -u origin master
+	o push envia todas as modificações ao repositório origin/repositório remoto ligado
+	-u: trackeia o comando para nas próximas só precisar usar git push
+	origin: repositório remoto para o qual vão as modificações
+	master: repositório mestre do qual saem as modificações
+
+
+	
+
+
+
 
 ctrl+insert
 	colar o texto selecionado
