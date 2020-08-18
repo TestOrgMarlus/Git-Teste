@@ -78,6 +78,15 @@ git checkout arquivo.arc
 git reset HEAD arquivo.arc
 	retira do tracking - revert o gid add
 
+git reset --soft
+	reverte o último commit, mas deixa a versão em staged/adicionada pra refazer o commit
+
+git reset --mixed
+	revert o arquivo pra modified, mas não staged
+
+git reset --hard
+	reverte o commit totalmente
+
 
 qualquercoisa
 
