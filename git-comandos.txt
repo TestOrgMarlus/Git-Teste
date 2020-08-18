@@ -79,6 +79,8 @@ git reset HEAD arquivo.arc
 	retira do tracking - revert o gid add
 
 
+qualquercoisa
+
 
 ctrl+insert
 	colar o texto selecionado
