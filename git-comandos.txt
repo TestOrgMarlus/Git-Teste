@@ -71,6 +71,15 @@ git commit -am "Comentário"
 
 
 
+git checkout arquivo.arc
+	volta à versão anterior o arquivo no último commit
+	ANTES DE ADICIoNAR
+
+git reset HEAD arquivo.arc
+	retira do tracking - revert o gid add
+
+
+
 ctrl+insert
 	colar o texto selecionado
 
